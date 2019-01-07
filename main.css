@@ -1,30 +1,68 @@
 body { margin: 60px auto; width: 90%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  /* min-width: 90%; */
-  max-width: 600px;
-  /* overflow-x: hidden;
-  overflow-y: scroll; */
+  min-width: 200px;
+  max-width: 800px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  background-color: #fdfdfd;
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
-a { text-decoration: none; color: #2d02a3c0
+a { text-decoration: none; color: #368a44
 ; } /* #B71C1C */
 a:hover { text-decoration: underline; }
 
-p, ul, ol, table { color: rgb(30, 26, 65); font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+
+p, ul, ol, table { color: #383838; font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 li {padding-bottom: 8px;}
 
-h1 { font-size: 1.5em; color: #2775b4 }
-h2 { font-size: 1.0em; color: #1f026e }
-h3 { font-size: 1.2em; color: #1f026e }
-h4 { font-size: 1.0em; color: #3183b3 } 
+h1 { font-size: 1.5em; color: #b40329 }
+h2 { font-size: 1.0em; color: #007924 }
+h3 { font-size: 1.2em; color: #007924 }
+h4 { font-size: 1.0em; color: #d4b609 } 
 
-nav ul, footer ul { font-size: 1em;  padding: 0px; list-style: none; font-weight: bold; }
+nav ul, footer ul { font-size: 1.1em;  padding: 0px; list-style: none; font-weight: bold; }
 nav ul li, footer ul li { display: inline; margin-right: 15px; }
 
-footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
-footer a {text-decoration: none; color: #333;}
-nav a {text-decoration: none; color: #1f026e;}
+nav {border-bottom: 1px solid #c7c7c7; }
+
+footer { border-top: 1px solid #c7c7c7; font-size: 0.7em; }
+footer a {text-decoration: none; color: #368a44;}
+nav a {text-decoration: none; color: #007924;}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  padding-right: 100px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+.left {
+  width: 40%;
+}
+
+.right {
+  width: 60%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .column {
+    width: 100%;
+  }
+}
 
 /* Blog */
 ul.posts { margin: 20px auto 40px; }
