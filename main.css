@@ -21,7 +21,8 @@ h2 { font-size: 1.5em; color: #007924 }
 h3 { font-size: 1.2em; color: #007924 }
 h4 { font-size: 1.0em; color: #d4b609 } 
 
-nav ul, footer ul { font-size: .8em;  padding: 0px; list-style: none; font-weight: bold; }
+nav ul { text-align:right; font-size: .8em;  padding: 0px; list-style: none; font-weight: bold; }
+footer ul { font-size: .8em;  padding: 0px; list-style: none; font-weight: bold; }
 nav ul li, footer ul li { display: inline; margin-right: 15px; }
 
 /*nav {border-bottom: 1px solid #c7c7c7; }*/
