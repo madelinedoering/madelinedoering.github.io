@@ -64,6 +64,28 @@ nav a {text-decoration: none; color: #007924;}
   }
 }
 
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* clearfix */
+
+.clearfix {
+  overflow: auto;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.imgR{
+  float: right;
+}
+.imgL{
+  float: left;
+}
 /* Blog */
 ul.posts { margin: 20px auto 40px; }
 ul.posts li { list-style: none; }
