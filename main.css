@@ -20,6 +20,7 @@ h1 { font-size: 2.5em; color: #b40329 }
 h2 { font-size: 1.5em; color: #007924 }
 h3 { font-size: 1.2em; color: #007924 }
 h4 { font-size: 1.0em; color: #d4b609 } 
+h5 { font-size: 1.0em; font-style: italic; font-weight: normal; color: #b40329} 
 
 nav ul { text-align:right; font-size: .8em;  padding: 0px; list-style: none; font-weight: bold; }
 footer ul { font-size: .8em;  padding: 0px; list-style: none; font-weight: bold; }
